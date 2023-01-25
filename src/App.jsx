@@ -15,7 +15,7 @@ function App() {
     {
       image:
         "https://www.sbsmobile.com/che/224729-home_default/fast-charge-powerbank-10000-mah-2-usbs.jpg",
-      productname: "PowerBank",
+      productname: "Power Bank",
       price: "$10",
     },
     {
@@ -118,7 +118,7 @@ const Items = ({ cartValueAdd, cartValueRemove, product }) => {
                 setIsDisabled(!isDisabled);
               }}
             >
-              add to cart
+              Add to cart
             </button>
             <button
               className="btn btn-primary"
@@ -128,7 +128,7 @@ const Items = ({ cartValueAdd, cartValueRemove, product }) => {
                 setIsDisabled(!isDisabled);
               }}
             >
-              remove from cart
+              Remove from cart
             </button>
           </div>
         </div>

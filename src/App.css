@@ -1,6 +1,10 @@
 .App{
  background-color: rgb(21, 69, 69);
 }
+.card-body{
+  background-color: rgb(130, 204, 204);
+  border-radius: 5px;
+}
 .header{
   color: white;
   background-color: black;
