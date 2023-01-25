@@ -1,0 +1,79 @@
+.App{
+ background-color: rgb(21, 69, 69);
+}
+.header{
+  color: white;
+  background-color: black;
+  padding: 15px 10px 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#enabled {
+  pointer-events: auto;
+}
+#disabled {
+  background-color: gray;
+  pointer-events: none;
+}
+.buttoncontainer {
+  display: flex;
+  justify-content: space-around;
+}
+.img{
+  width:340px;
+  height: 300px;
+  object-fit: cover;
+}
+.card{
+  width: 380px;
+  margin-bottom: 10px;
+}
+.namePrice{
+  text-align: center;
+}
+.col-sm-12{
+  display: flex;
+  justify-content: space-around;
+}
+.main-container{
+  margin: 30px 10px 10px 10px;
+}
+label{
+  color: aqua;
+}
+.card:hover{
+  box-shadow: 0px 2px 2px 2px rgb(15, 188, 211);
+}
+.btn-dark{
+  width: fit-content;
+  height: fit-content;
+  margin-right: 50px;
+}
+p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  opacity: 0.8;
+}
+h2{
+  font-family: 'Times New Roman', Times, serif;
+}
+h1{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-left: 50px;
+}
+input{
+ width: 400px;
+ border-radius: 5px;
+ padding-left: 5px;
+}
+@media screen and (max-width:500px) {
+  .btn-dark{
+    margin-right: 10px;
+  }
+  h1{
+    margin-left: 10px;
+  }
+  input{
+    display: none;
+  }
+}
